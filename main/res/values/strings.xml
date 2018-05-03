@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Task List</string>
+    <string name="tab_1">Clean Room</string>
+    <string name="tab_2">Complete Homework for Android</string>
+    <string name="tab_3">Submit Paperwork for Meeting</string>
+    <string name="tab_label1">Personal</string>
+    <string name="tab_label2">School</string>
+    <string name="tab_label3">Work</string>
+    <string name="add_new">Compose New</string>
+    <string name="remove_item">Trash</string>
+    <string name="task_notes_work">Apple Music Playlist Concepts</string>
+    <string name="task_notes_school"><![CDATA[Concepts & Practicals 4-10]]></string>
+    <string name="task_notes_personal">laundry</string>
+</resources>

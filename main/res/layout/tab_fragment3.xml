@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tmangramrock.tabexperiment.TabFragment3">
+
+    <CheckBox
+        android:id="@+id/completedCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/workList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/completedCheckBox"
+        android:layout_alignBottom="@+id/completedCheckBox"
+        android:layout_toRightOf="@+id/completedCheckBox"
+        android:text="@string/tab_3"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/notesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/workList"
+        android:layout_marginTop="-5dp"
+        android:layout_toRightOf="@+id/completedCheckBox"
+        android:paddingBottom="7dp"
+        android:text="@string/task_notes_work"
+        android:textColor="@android:color/black"/>
+
+
+</RelativeLayout>
